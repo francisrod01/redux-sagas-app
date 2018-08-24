@@ -7,6 +7,8 @@ import {
 
 import reduxStore from './redux';
 
+import Login from './screens/Login';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +17,9 @@ class App extends Component {
     return (
       <Provider store={reduxStore}>
         <div className="App">
+
+          <Route path='/login' component={Login} />
+
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Welcome to React</h1>
