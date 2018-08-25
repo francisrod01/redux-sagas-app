@@ -60,7 +60,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  signIn: (email, passwd) => dispatch(ActionCreator.signInRequest(email, passwd)),
+  signIn: (email, passwd) => dispatch(ActionCreator.signinRequest(email, passwd)),
 });
 
 

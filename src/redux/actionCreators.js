@@ -5,7 +5,7 @@ export const {
   Types,
   Creators
 } = createActions({
-  signInRequest: ['email', 'passwd'],
+  signinRequest: ['email', 'passwd'],
 });
 
 
